@@ -1,2 +1,23 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+//salvar como SegundoProgramaJava.java
+
+//nome da classe
+class SegundoProgramaJava
+{
+	//módulo principal com a entrada pela linha de comando
+	public static void main (String entrada[])
+	{
+	//declaração de variáveis
+	int n1, n2, soma;
+
+	//entrada de dados
+	n1 = Interger.parseInt(entrada[0]);
+	n2 = Interger.parseInt(entrada[1]);
+	//processamento
+	soma = n1 + n2;
+	//saída de resultado
+	System.out.printIn(n1 + " + " + n2 + " = " + soma);
+|	System.exit(0);
+	}
+}
